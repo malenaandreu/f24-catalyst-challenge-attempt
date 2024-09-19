@@ -37,8 +37,9 @@ function printTodo() { //function will print every todo in todoList
  */
 function mainTask1b() {
     // YOUR CODE HERE (simply call the functions you implemented above)
-    addTodo("- Complete pset");
-    addTodo("- Draft essay");
+    addTodo("1. Apply to y/cs!");
+    addTodo("2. Pick out my classes");
+    addTodo("3. Have dinner with my suite");
     printTodo();
 }
 
