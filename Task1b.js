@@ -17,12 +17,17 @@ todoList = [];
  * the "// YOUR CODE HERE" comments.
  */
 
-function __todo(todoString) {
+function addTodo(todoString) { //function will add todos to todoList
     // YOUR CODE HERE
+    todoList.push(todoString);
 }
 
-function __todo() {
+function printTodo() { //function will print every todo in todoList
     // YOUR CODE HERE
+    let lstSize = todoList.length;
+    for (let i = 0; i < lstSize; i++){
+        console.log(todoList[i] + "\n");
+    }
 }
 
 /**
@@ -32,6 +37,9 @@ function __todo() {
  */
 function mainTask1b() {
     // YOUR CODE HERE (simply call the functions you implemented above)
+    addTodo("- Complete pset");
+    addTodo("- Draft essay");
+    printTodo();
 }
 
 // This bit of code ensures that a main method exists! If it doesn't, then it throws an error
